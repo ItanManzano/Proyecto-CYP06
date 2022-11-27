@@ -1,10 +1,10 @@
 #pragma once
-#pragma once
 #include "..\quisodecir\corrector.h"
 #include "afxwin.h"
+#include "corrector.h"
 
 
-class CCorrectorWinDlg : public CDialogEx
+class CCorrectorWinDlg : public;
 {
 
 public:
@@ -24,8 +24,8 @@ protected:
 	
 	int FuncEPRActiv(void);
 	virtual BOOL OnInitDialog();
-	afx_msg void OnSysCommand(UINT nID, LPARAM lParam);
-	afx_msg void OnPaint();
+	afx_msg void; OnSysCommand(UINT nID, LPARAM lParam);
+	afx_msg void; OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
 public:
@@ -44,7 +44,7 @@ public:
 	char	szPalabraLeida[TAMTOKEN];
 	char	szPalabrasSugeridas[3300][TAMTOKEN];
 	char	szListaFinal[3300][TAMTOKEN];
-	int		iPeso[3300]; /
+	int		iPeso[3300]; 
 	int		iCandidatas[3300]; 
 	int		iNumLista;
 	int		iNumSugeridas;
