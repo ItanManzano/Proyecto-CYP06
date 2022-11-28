@@ -2,8 +2,8 @@
 C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(27,49): warning C4244: '=': conversión de 'wint_t' a 'char'; posible pérdida de datos
 C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(199,37): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
 C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(249,27): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(196,2): error C4996: '_strnset': This function or variable may be unsafe. Consider using _strnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(223,2): error C4996: '_strnset': This function or variable may be unsafe. Consider using _strnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(245,2): error C4996: '_strnset': This function or variable may be unsafe. Consider using _strnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(267,2): error C4996: '_strnset': This function or variable may be unsafe. Consider using _strnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(316,2): error C4996: '_strnset': This function or variable may be unsafe. Consider using _strnset_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(196,2): error C4996: 'strnset': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnset. See online help for details.
+C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(223,2): error C4996: 'strnset': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnset. See online help for details.
+C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(245,2): error C4996: 'strnset': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnset. See online help for details.
+C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(267,2): error C4996: 'strnset': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnset. See online help for details.
+C:\Users\admin\source\repos\CYP06\CYP06\CYP06.cpp(316,2): error C4996: 'strnset': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnset. See online help for details.
