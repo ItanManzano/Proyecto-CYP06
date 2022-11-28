@@ -2,7 +2,6 @@
 #include <string.h>
 #include "corrector.h"
 
-
 void	Diccionario(char* szNombre, char szPalabras[][TAMTOKEN], int iEstadisticas[], int& iNumElementos)
 {
 	FILE* stream;
@@ -242,6 +241,7 @@ void	ClonaPalabras(
 
 	char abc[] = "abcdefghijklmnñopqrstuvwxyzáéíóú";
 	int longabc = strlen(abc), cCopy;
+
 	for (i = 0; i < nletrasPLs; i++)
 	{
 		for (ii = 0; ii < longabc; ii++) 
