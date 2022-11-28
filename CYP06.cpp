@@ -187,7 +187,7 @@ void	ClonaPalabras(
 {
 	
 	char PLedit[TAMTOKEN] = "v";
-	strnset(PLedit, '\0', TAMTOKEN);
+	_strnset_s(PLedit, '\0', TAMTOKEN);
 	int i, ii;
 	iNumSugeridas = 0;
 	nletrasPLs = strlen(szPalabraLeida);
@@ -214,7 +214,7 @@ void	ClonaPalabras(
 
 	char limbolizq, limbolder;
 	int cizqDer;
-	strnset(PLedit, '\0', TAMTOKEN);
+	_strnset_s(PLedit, '\0', TAMTOKEN);
 	i = 0;
 	for (cizqDer = 1; cizqDer < nletrasPLs; cizqDer++) 
 	{
@@ -236,7 +236,7 @@ void	ClonaPalabras(
 		i++;
 	}
 
-	strnset(PLedit, '\0', TAMTOKEN);
+	_strnset_s(PLedit, '\0', TAMTOKEN);
 
 
 	char abc[] = "abcdefghijklmnñopqrstuvwxyzáéíóú";
@@ -258,7 +258,7 @@ void	ClonaPalabras(
 	}
 
 	
-	strnset(PLedit, '\0', TAMTOKEN);
+	_strnset_s(PLedit, '\0', TAMTOKEN);
 	
 	for (i = 0; i <= nletrasPLs; i++)
 	{
