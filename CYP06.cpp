@@ -307,5 +307,5 @@ void	ClonaPalabras(
 		}
 		i++;
 	}
-	strnset(szPalabraLeida, '\0', TAMTOKEN);
+	_strnset(szPalabraLeida, '\0', TAMTOKEN);
 }
